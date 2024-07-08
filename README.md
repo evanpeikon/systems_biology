@@ -1,2 +1,2 @@
-# numerical-methods
-Assorted functions for performing numerical methods 
+# Numerical Methods
+Assorted functions for performing numerical methods. 
