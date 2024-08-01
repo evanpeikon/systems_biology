@@ -18,7 +18,7 @@ Below you'll find a list of programs and functions for solving common problems i
 
 - [Binomial Mutations Calculator](https://github.com/evanpeikon/numerical_methods_and_systems_bio/blob/main/binomial_mutation_calculator.py)
   - A binomial process is related to the binomial distribution, which describes the number of successes in a fixed number of independent trials, each with the same probability of success. This code calculates the probability of observing exactly k mutations in n DNA bases, given a mutation rate p, using the binomial distribution formula. 
-- [Poisson Mutation Calculator]()
-  - 
+- [Poisson Mutation Calculator](https://github.com/evanpeikon/numerical_methods_and_systems_bio/blob/main/poisson_mutation_calculator.py)
+  - A Poisson process is related to the Poisson distribution, which describes the number of events occurring within a fixed interval of time or space, where these events happen independently of each other and at a constant average rate. This code calculates the probability of observing exactly k mutations given an average mutation rate λ, using the Poisson distribution formula. 
 
 
