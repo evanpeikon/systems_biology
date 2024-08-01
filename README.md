@@ -1,5 +1,5 @@
-### Overview
-This repo contains assorted functions for performing numerical methods and solving common problems in systems biology. 
+# Overview
+This repo contains assorted programs and functions for performign numerical methods and solving common problems in systems biology. 
 
 # Numerical Methods
 
