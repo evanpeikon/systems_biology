@@ -1,3 +1,5 @@
+# you can learn more about how this code works here: https://github.com/evanpeikon/dynamicalsys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
