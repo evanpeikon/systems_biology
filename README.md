@@ -23,7 +23,7 @@ Below you'll find a list of numerical methods for which I've provided functions 
 
 Below you'll find a list of programs and functions for solving common problems in systems biology. Additional methods will be added to this repository over time.
 
-- Modeling Signaling Pathways 
+- [Modeling Signaling Pathways](https://github.com/evanpeikon/systems_biology/blob/main/systems_biology/modeling_pathway_example.ipynb) 
   - Modeling pathways using ordinary differential equations (ODEs) involves representing the dynamic behavior of biological processes by defining how variables change over time. These ODE systems can be solved computationally, allowing for the visualization of the system's evolution through charting the variables' trajectories.
 - [Binomial Mutations Calculator](https://github.com/evanpeikon/numerical_methods_and_systems_bio/blob/main/binomial_mutation_calculator.py)
   - A binomial process is related to the binomial distribution, which describes the number of successes in a fixed number of independent trials, each with the same probability of success. This code calculates the probability of observing exactly k mutations in n DNA bases, given a mutation rate p, using the binomial distribution formula. 
