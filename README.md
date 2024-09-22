@@ -13,9 +13,9 @@ Below you'll find a list of numerical methods for which I've provided functions 
   - The RK4 method is a more accurate method for solving ODEs compared to Euler's method. RK4 reduces error by taking a weighted average of slopes at different points within the interval, and it's known for it's balance between accuracy and computational efficiency.
  - Root Finding Methods:
    - The quadratic formula $x = \frac{-b±\sqrt{b^2-4ac}}{2a}$ is used to solve functions of the form $f(x) = ax^2+bx+c=0$. The values calculated with this formula are called ```roots``` and they represent values of $x$ that make the function equal 0. Although the quadratic formula helps you identify roots for simple functions of the form $f(x) = ax^2+bx+c=0$. there are many functions for which the root cannot be determined as easily. For this reason, other numerical methods, provide more effcient means of obtaining the answer(s). Below you'll find code for multiple bracketing and open methods used to identify roots: 
-    - [The Bisection Method](https://github.com/evanpeikon/systems_biology/blob/main/bisection_method.py)
-    - [The False Position Method](https://github.com/evanpeikon/systems_biology/blob/main/false_positon_method.py)
-    - [Fixed-Point Iteration](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/fixed_point_iteration.py)
+      - [The Bisection Method](https://github.com/evanpeikon/systems_biology/blob/main/bisection_method.py)
+      - [The False Position Method](https://github.com/evanpeikon/systems_biology/blob/main/false_positon_method.py)
+      - [Fixed-Point Iteration](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/fixed_point_iteration.py)
  
 # Systems Biology
 
