@@ -7,12 +7,12 @@ Numerical methods are techniques for finding approximate solutions to mathematic
 
 Below you'll find a list of numerical methods for which I've provided functions to carry out. Additional numerical methods will be added to this repository over time.
 
+- [Gauss Elimination](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/gauss_elimination.py)
+  - Gaussian elimination is a mathematical procedure used to solve systems of linear equations by transforming the system's augmented matrix into row-echelon form (and then reduced row-echelon form) through a series of row operations. This method systematically eliminates variables to find the solution for each unknown in the system.
 - [Euler's Method](https://github.com/evanpeikon/numerical-methods/blob/main/eulers_method.py)
   - Euler's method is a simple numerical technique for solving ordinary differential equations (ODEs) and works by approximating the solution over small steps.
 - [Runge-Kutta 4th Order Method (RK4)](https://github.com/evanpeikon/numerical-methods/blob/main/runge_kutta_RK4.py)
   - The RK4 method is a more accurate method for solving ODEs compared to Euler's method. RK4 reduces error by taking a weighted average of slopes at different points within the interval, and it's known for it's balance between accuracy and computational efficiency.
-- Gauss Elimination
-  - Gaussian elimination is a mathematical procedure used to solve systems of linear equations by transforming the system's augmented matrix into row-echelon form (and then reduced row-echelon form) through a series of row operations. This method systematically eliminates variables to find the solution for each unknown in the system.
 - Root Finding Methods:
   - The quadratic formula $x = \frac{-b±\sqrt{b^2-4ac}}{2a}$ is used to solve functions of the form $f(x) = ax^2+bx+c=0$. The values calculated with this formula are called ```roots``` and they represent values of $x$ that make the function equal 0. Although the quadratic formula helps you identify roots for simple functions of the form $f(x) = ax^2+bx+c=0$. there are many functions for which the root cannot be determined as easily. For this reason, other numerical methods, provide more effcient means of obtaining the answer(s). Below you'll find code for multiple bracketing and open methods used to identify roots: 
      - [The Bisection Method](https://github.com/evanpeikon/systems_biology/blob/main/bisection_method.py)
