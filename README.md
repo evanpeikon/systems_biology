@@ -18,6 +18,15 @@ Below you'll find a list of numerical methods for which I've provided functions 
      - [The Bisection Method](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/bisection_method.py)
      - [The False Position Method](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/false_positon_method.py)
     - [Fixed-Point Iteration](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/fixed_point_iteration.py)
+- Optimization Methods:
+  - [Golden Section Search]() is an optimization algorithm used to find the minimum (or maximum) of a unimodal function within a specified interval. It iteratively narrows the search range by dividing the interval using the golden ratio, reducing the number of function evaluations needed to identify the optimal point.
+
+
+
+
+
+
+
  
 # Systems Biology
 
