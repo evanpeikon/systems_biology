@@ -1,7 +1,7 @@
-# Overview
+# 🧬 Overview
 This repository contains assorted programs and functions for using numerical methods, modeling, and solving common problems in systems biology. 
 
-# Numerical Methods
+# 🧬 Numerical Methods
 
 Numerical methods are techniques for finding approximate solutions to mathematicaal problems that may not have exact solutions. Additionally, numerical methods generally rely on iterative precedures and discretization to produce a sequence of approximations that converge to a true solution, and as a result they are  particuarly helpful for solving differential equations, optimization problems, and systems of equations where traditional algebraic methods are not possible, or are impractical. 
 
@@ -24,18 +24,10 @@ Below you'll find a list of numerical methods for which I've provided functions 
   - [Optimal Steepest Descent](https://github.com/evanpeikon/systems_biology/tree/main/numerical_methods) is an iterative optimization technique that moves in the direction of the negative gradient (steepest descent) of a function to minimize it. At each step, it computes the optimal step size that minimizes the function along the current search direction, ensuring more efficient convergence than standard gradient descent.
 - [Multiple Linear Regression](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/multiple_regression.py)
   - Multiple linear regression is a statistical method used to model the relationship between one dependent variable and two or more independent variables by fitting a linear equation. The goal is to predict the dependent variable by minimizing the differences between observed values and the values predicted by the linear model, often using least squares estimation.
-- Newton's Interpolating Polynomial
+- [Newton's Interpolating Polynomial](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/newtons_interpolating_polynomial.py)
   - Newton's interpolating polynomial is a method for estimating values of a function using a set of known data points by constructing a polynomial that passes through those points. It employs divided differences to efficiently build the polynomial and allows for incremental updates when new data points are added.
 
-
-
-
-
-
-
-
- 
-# Systems Biology
+# 🧬 Systems Biology
 
 Below you'll find a list of programs and functions for solving common problems in systems biology. Additional methods will be added to this repository over time.
 
