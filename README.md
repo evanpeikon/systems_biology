@@ -9,8 +9,8 @@ Below you'll find a list of numerical methods for which I've provided functions 
 
 - [Gauss Elimination](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/gauss_elimination.py)
   - Gaussian elimination is a mathematical procedure used to solve systems of linear equations by transforming the system's augmented matrix into row-echelon form (and then reduced row-echelon form) through a series of row operations. This method systematically eliminates variables to find the solution for each unknown in the system.
-- [Euler's Method](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/eulers_method.py)
-  - Euler's method is a simple numerical technique for solving ordinary differential equations (ODEs) and works by approximating the solution over small steps.
+- Euler's Method:
+  - Euler's method is a numerical technique for solving ordinary differential equations (ODEs) by approximating solutions through iterative steps, where the next value is computed using the current value and the derivative at that point.    - This method can be used to solve ODEs by updating the dependent variable based on its rate of change, [as demonstrated here](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/eulers_method.py) or it can be used to simulate physical processes, [as demonstrated here]()  
 - [Runge-Kutta 4th Order Method (RK4)](https://github.com/evanpeikon/systems_biology/blob/main/numerical_methods/runge_kutta_RK4.py)
   - The RK4 method is a more accurate method for solving ODEs compared to Euler's method. RK4 reduces error by taking a weighted average of slopes at different points within the interval, and it's known for it's balance between accuracy and computational efficiency.
 - Root Finding Methods:
